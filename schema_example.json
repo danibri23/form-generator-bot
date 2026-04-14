@@ -1,0 +1,391 @@
+{
+  "type": "subsidy",
+  "showProgress": true,
+  "helpButton": {
+    "backgroundColor": "3192EC",
+    "textColor": "37404F",
+    "text": "Necesito ayuda",
+    "action": {
+      "type": "whatsapp",
+      "phone": "",
+      "message": "Hola, estoy teniendo problemas para solicitar un servicio de solidaridad.",
+      "attachUserInfo": true
+    }
+  },
+  "pages": [
+    {
+      "widgets": [
+        {
+          "type": "heading",
+          "key": "titlePage",
+          "widgetData": {
+            "text": "Servicios de Solidaridad"
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitlePage",
+          "widgetData": {
+            "text": "Ante ciertas situaciones, tu cooperativa te respalda mediante los siguientes servicios de solidaridad. La antigüedad mínima para acceder es de 1 año."
+          }
+        },
+        {
+          "type": "radio",
+          "key": "subsidyType",
+          "widgetData": {
+            "label": "Seleccioná el tipo de servicio:",
+            "options": [
+              {
+                "value": "nacimiento-adopcion",
+                "label": "Premio por nacimiento o adopción plena",
+                "description": "Gs. 500.000 por hijo",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/born.png"
+              },
+              {
+                "value": "matrimonio",
+                "label": "Premio por matrimonio",
+                "description": "Gs. 500.000",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/wedding.png"
+              },
+              {
+                "value": "estudios-basica",
+                "label": "Premio por culminación - Educación Escolar Básica (9° Grado)",
+                "description": "Gs. 250.000",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png"
+              },
+              {
+                "value": "estudios-secundaria",
+                "label": "Premio por culminación - Educación Secundaria (3er año)",
+                "description": "Gs. 300.000",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png"
+              },
+              {
+                "value": "estudios-terciaria",
+                "label": "Premio por culminación - Educación Terciaria (mín. 3 años)",
+                "description": "Gs. 400.000 (solo socio titular)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png"
+              },
+              {
+                "value": "estudios-universitaria",
+                "label": "Premio por culminación - Educación Universitaria (mín. 4 años)",
+                "description": "Gs. 500.000 (solo socio titular)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png"
+              },
+              {
+                "value": "internacion-socio",
+                "label": "Subsidio por internación - Socio titular",
+                "description": "Gs. 150.000 por día (máx. 5 días)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
+              },
+              {
+                "value": "internacion-conyuge",
+                "label": "Subsidio por internación - Cónyuge",
+                "description": "Gs. 50.000 por día (máx. 5 días)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
+              },
+              {
+                "value": "internacion-hijo",
+                "label": "Subsidio por internación - Hijo menor de 18 años",
+                "description": "Gs. 50.000 por día (máx. 5 días)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
+              },
+              {
+                "value": "incapacidad-permanente-total",
+                "label": "Subsidio por incapacidad permanente total",
+                "description": "Gs. 5.000.000 (pago único)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
+              },
+              {
+                "value": "analisis-clinicos",
+                "label": "Subsidio por análisis clínicos y bacteriológicos",
+                "description": "Hasta Gs. 200.000 (una vez al año)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
+              },
+              {
+                "value": "accidente-grave-carretera",
+                "label": "Subsidio por accidentes graves en carretera",
+                "description": "Gs. 1.500.000 (socio) / Gs. 750.000 (cónyuge o hijo menor)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
+              },
+              {
+                "value": "incendio",
+                "label": "Subsidio por daños materiales por incendio",
+                "description": "Gs. 3.000.000 (pago único)",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/document.png"
+              },
+              {
+                "value": "fallecimiento-socio",
+                "label": "Subsidio por fallecimiento del socio",
+                "description": "Gs. 2.000.000",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
+              },
+              {
+                "value": "fallecimiento-conyuge",
+                "label": "Subsidio por fallecimiento del cónyuge",
+                "description": "Gs. 1.000.000",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
+              },
+              {
+                "value": "fallecimiento-hijo",
+                "label": "Subsidio por fallecimiento del hijo/hija menor de 18 años",
+                "description": "Gs. 1.000.000",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
+              },
+              {
+                "value": "fallecimiento-padre-madre",
+                "label": "Subsidio por fallecimiento del padre o la madre",
+                "description": "Gs. 1.000.000",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
+              }
+            ],
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes seleccionar un tipo de servicio."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "widgets": [
+        {
+          "type": "heading",
+          "key": "titleNacimientoAdopcion",
+          "widgetData": {
+            "text": "Premio por nacimiento o adopción plena"
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitleNacimientoAdopcion",
+          "widgetData": {
+            "text": "Gs. 500.000 por cada hijo nacido vivo o adoptado plenamente."
+          }
+        },
+        {
+          "type": "list",
+          "key": "listNacimientoAdopcion",
+          "widgetData": {
+            "items": [
+              "Subir el certificado de nacimiento expedido por el Registro del Estado Civil",
+              "Subir el certificado de nacido vivo expedido por el sanatorio/hospital/centro asistencial",
+              "En caso de adopción: subir la sentencia judicial firme y ejecutoriada"
+            ]
+          }
+        },
+        {
+          "type": "photo",
+          "key": "nacimientoCertificadoNacimiento",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Certificado de nacimiento",
+            "description": "Expedido por el Registro del Estado Civil",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/document.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir el certificado de nacimiento."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "nacimientoCertificadoNacidoVivo",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Certificado de nacido vivo",
+            "description": "Expedido por el sanatorio, hospital o centro asistencial",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/document.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir el certificado de nacido vivo."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "nacimientoSentenciaAdopcion",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Sentencia judicial de adopción plena (si aplica)",
+            "description": "Firme y ejecutoriada",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/document.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": []
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentFrontPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Frente de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-front.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del frente de tu cédula."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentBackPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Dorso de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-back.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del dorso de tu cédula."
+            }
+          ]
+        }
+      ],
+      "visibilityConditions": [
+        {
+          "inputKey": "subsidyType",
+          "operator": "==",
+          "comparisonValue": "nacimiento-adopcion"
+        }
+      ]
+    },
+    {
+      "widgets": [
+        {
+          "type": "heading",
+          "key": "titleMatrimonio",
+          "widgetData": {
+            "text": "Premio por matrimonio"
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitleMatrimonio",
+          "widgetData": {
+            "text": "Gs. 500.000 para el socio que contrae matrimonio legal válido."
+          }
+        },
+        {
+          "type": "list",
+          "key": "listMatrimonio",
+          "widgetData": {
+            "items": [
+              "Subir el certificado de matrimonio original expedido por el Registro del Estado Civil"
+            ]
+          }
+        },
+        {
+          "type": "photo",
+          "key": "matrimonioCertificado",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Certificado de matrimonio",
+            "description": "Original expedido por el Registro del Estado Civil",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/document.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir el certificado de matrimonio."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentFrontPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Frente de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-front.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del frente de tu cédula."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentBackPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Dorso de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-back.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del dorso de tu cédula."
+            }
+          ]
+        }
+      ],
+      "visibilityConditions": [
+        {
+          "inputKey": "subsidyType",
+          "operator": "==",
+          "comparisonValue": "matrimonio"
+        }
+      ]
+    }
+  ]
+}
