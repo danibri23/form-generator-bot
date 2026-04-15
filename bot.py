@@ -20,6 +20,7 @@ import os
 import json
 import logging
 import tempfile
+import threading
 import requests
 from dotenv import load_dotenv
 from slack_bolt import App
@@ -41,11 +42,9 @@ logger = logging.getLogger("bot")
 app = App(token=os.environ["SLACK_BOT_TOKEN"])
 
 
-@app.event("file_shared")
-def handle_file_shared(event, client, say):
-    """Maneja el evento de archivo compartido en Slack.
-    Descarga el archivo, extrae el texto, llama a Claude,
-    valida el JSON resultante y lo sube al canal.
+def process_file(event, client, say):
+    """Procesa el archivo en un hilo separado para evitar que Slack
+    reintente el evento por timeout (Claude puede tardar más de 3 segundos).
     """
     file_id = event.get("file_id")
     channel_id = event.get("channel_id")
@@ -117,6 +116,14 @@ def handle_file_shared(event, client, say):
 
     os.unlink(tmp_path)
     logger.info(f"JSON subido exitosamente para: {filename}")
+
+
+@app.event("file_shared")
+def handle_file_shared(event, client, say):
+    """Recibe el evento de Slack y delega el procesamiento a un hilo separado.
+    Retorna inmediatamente para evitar que Slack reintente el evento por timeout.
+    """
+    threading.Thread(target=process_file, args=(event, client, say)).start()
 
 
 if __name__ == "__main__":
