@@ -17,7 +17,11 @@ Bot de Slack que recibe documentos de servicios de solidaridad de cooperativas (
 
 ```
 form-generator-bot/
-├── bot.py              # Código principal del bot
+├── bot.py              # Handler de Slack y punto de entrada
+├── extractor.py        # Extracción de texto (markitdown + OCR) y llamada a Claude
+├── builder.py          # Construcción del JSON con plantillas fijas
+├── validator.py        # Validación del JSON antes de subirlo al canal
+├── config.py           # Constantes compartidas (ICON_MAP, PROMPTS, etc.)
 ├── schema_example.json # Ejemplo de JSON de salida esperado (referencia)
 ├── requirements.txt    # Dependencias Python
 ├── .env                # Variables de entorno (no commitear)
@@ -47,18 +51,44 @@ pip install -r requirements.txt
 python bot.py
 ```
 
-## Arquitectura de `bot.py`
+## Arquitectura — módulos y funciones
 
+### `bot.py` — Handler de Slack
+| Función | Responsabilidad |
+|---|---|
+| `handle_file_shared()` | Orquesta todo el flujo: descarga, extrae, genera, valida y sube |
+
+### `extractor.py` — Extracción de texto y datos
 | Función | Responsabilidad |
 |---|---|
 | `file_to_text()` | Extrae texto del archivo (markitdown + fallback OCR) |
 | `ocr_pdf()` | OCR con pytesseract para PDFs escaneados |
 | `extract_subsidies()` | Llama a Claude Haiku y parsea la respuesta JSON |
+
+### `builder.py` — Construcción del formulario
+| Función | Responsabilidad |
+|---|---|
 | `build_json()` | Construye el JSON completo del formulario con plantillas fijas |
 | `make_photo_widget()` | Plantilla para widget de subida de documentos |
 | `make_ci_widgets()` | Plantilla fija para frente y dorso de cédula de identidad |
 | `get_icon()` | Resuelve el icono S3 según la categoría del subsidio |
-| `handle_file_shared()` | Handler de Slack: orquesta todo el flujo |
+| `to_camel_case()` | Convierte slug a camelCase (para keys de widgets) |
+| `to_kebab_case()` | Convierte camelCase a kebab-case (para values del radio) |
+
+### `validator.py` — Validación del JSON
+| Función | Responsabilidad |
+|---|---|
+| `validate_json()` | Valida el JSON antes de subirlo; devuelve lista de errores |
+
+Validaciones que realiza:
+- Al menos 1 subsidio generado (mínimo 3 páginas)
+- Ninguna página con widgets vacíos
+- Keys de widgets únicos globalmente (excepto CI keys, `titlePage` y `subtitlePage`, que se repiten intencionalmente)
+- Cada `value` del radio tiene su página con `visibilityCondition` correspondiente
+- Ningún key de widget contiene guiones o espacios (camelCase mal generado)
+
+### `config.py` — Constantes compartidas
+Contiene: `ICON_MAP`, `ASSETS_BASE`, `CATEGORY_ORDER`, `EXTRACT_PROMPT`
 
 ## Estructura del JSON de salida
 
@@ -79,6 +109,7 @@ El JSON generado sigue el schema de formularios dinámicos de BrosCo:
 
 **Convenciones de claves:**
 - `key` de widgets → **camelCase** (ej: `subsidioIncapacidadTotal`)
+- `key` de documentos → prefijado con el slug del subsidio (ej: `subsidiofallecimientosocioActadefuncion`)
 - `value` del radio y `comparisonValue` de visibilityConditions → **kebab-case** (ej: `subsidio-incapacidad-total`)
 
 ## Reglas críticas al modificar el código
@@ -104,7 +135,7 @@ Los subsidios siempre aparecen en este orden en el radio:
 6. incendio
 7. fallecimiento
 
-Definido en `CATEGORY_ORDER` en `bot.py`.
+Definido en `CATEGORY_ORDER` en `config.py`.
 
 ## Modelo de Claude usado
 

@@ -38,67 +38,67 @@
               {
                 "value": "premio-nacimiento-madre",
                 "label": "Premio por Nacimiento de Hijo Vivo - Madre",
-                "description": "G. 700.000",
+                "description": "Gs. 700.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/born.png"
               },
               {
                 "value": "premio-nacimiento-padre",
                 "label": "Premio por Nacimiento de Hijo Vivo - Padre",
-                "description": "G. 500.000",
+                "description": "Gs. 500.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/born.png"
               },
               {
-                "value": "premio-adopcion-plena",
+                "value": "premio-adopcion",
                 "label": "Premio por Adopción Plena de Hijo",
-                "description": "G. 500.000",
+                "description": "Gs. 500.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/born.png"
               },
               {
                 "value": "premio-matrimonio",
                 "label": "Premio por Matrimonio",
-                "description": "G. 500.000",
+                "description": "Gs. 500.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/wedding.png"
               },
               {
                 "value": "premio-titulo-universitario",
-                "label": "Premio por Título Universitario Obtenido",
-                "description": "G. 800.000",
+                "label": "Premio por Título Universitario",
+                "description": "Gs. 800.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png"
               },
               {
                 "value": "premio-posgrado",
-                "label": "Premio por Título de Posgrado Obtenido",
-                "description": "G. 1.000.000",
+                "label": "Premio por Título de Posgrado",
+                "description": "Gs. 1.000.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png"
               },
               {
-                "value": "subsidio-reposo",
-                "label": "Subsidio por Reposo Médico",
-                "description": "G. 50.000 hasta 15 días",
-                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
-              },
-              {
-                "value": "subsidio-internacion",
+                "value": "subsidio-internacion-sanatorial",
                 "label": "Subsidio por Internación Sanatorial",
-                "description": "G. 100.000 por día hasta 10 días",
+                "description": "Gs. 100.000 por día, hasta 10 días",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
               },
               {
-                "value": "subsidio-incapacidad-temporal",
+                "value": "subsidio-reposo-medico",
+                "label": "Subsidio por Reposo Médico",
+                "description": "Gs. 50.000, hasta 15 días",
+                "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
+              },
+              {
+                "value": "subsidio-incapacidad-fisica-temporaria",
                 "label": "Subsidio por Incapacidad Física Temporal",
-                "description": "G. 800.000 hasta 2 pagos/año",
+                "description": "Gs. 800.000, hasta 2 pagos anuales",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
               },
               {
-                "value": "subsidio-incapacidad-permanente",
+                "value": "subsidio-incapacidad-fisica-permanente",
                 "label": "Subsidio por Incapacidad Física Permanente",
-                "description": "G. 2.000.000 mensuales por 3 meses",
+                "description": "Gs. 2.000.000 mensuales por 3 meses",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png"
               },
               {
                 "value": "subsidio-siniestros",
                 "label": "Subsidio por Siniestros",
-                "description": "Hasta G. 1.000.000",
+                "description": "Hasta Gs. 1.000.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/document.png"
               },
               {
@@ -108,21 +108,21 @@
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
               },
               {
-                "value": "subsidio-fallecimiento-conyuge",
-                "label": "Subsidio por Fallecimiento de Cónyuge",
-                "description": "G. 1.500.000",
+                "value": "subsidio-fallecimiento-padre-madre",
+                "label": "Subsidio por Fallecimiento de Padre/Madre",
+                "description": "Gs. 1.500.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
               },
               {
-                "value": "subsidio-fallecimiento-padre",
-                "label": "Subsidio por Fallecimiento de Padre/Madre",
-                "description": "G. 1.500.000",
+                "value": "subsidio-fallecimiento-conyuge",
+                "label": "Subsidio por Fallecimiento de Cónyuge",
+                "description": "Gs. 1.500.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
               },
               {
                 "value": "subsidio-fallecimiento-hijo",
-                "label": "Subsidio por Fallecimiento de Hijo/Hija",
-                "description": "G. 1.500.000",
+                "label": "Subsidio por Fallecimiento de Hijo",
+                "description": "Gs. 1.500.000",
                 "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png"
               }
             ],
@@ -151,7 +151,7 @@
           "type": "subheading",
           "key": "subtitlePremionacimientomadre",
           "widgetData": {
-            "text": "¡Felicidades por el nacimiento de tu hijo/a! Subí los siguientes documentos para acceder al premio."
+            "text": "¡Felicidades por el nacimiento! Subí los siguientes documentos para acceder al premio."
           }
         },
         {
@@ -166,18 +166,18 @@
           "key": "listPremionacimientomadre",
           "widgetData": {
             "items": [
-              "Antigüedad mínima de 18 meses como socio/a",
+              "Antigüedad mínima de 18 meses como socia",
               "Solicitud de solidaridad firmada sin enmiendas"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "certificadonacimiento",
+          "key": "premionacimientomadreCertificadonacimiento",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado de Nacimiento o Libreta de Familia",
-            "description": "Emitido por Dirección General de Registro del Estado Civil",
+            "description": "Emitido por Dirección General del Registro Civil",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/born.png",
             "multiple": true,
             "camera": "both",
@@ -258,7 +258,7 @@
           "type": "subheading",
           "key": "subtitlePremionacimientopadre",
           "widgetData": {
-            "text": "¡Felicidades por el nacimiento de tu hijo/a! Subí los siguientes documentos para acceder al premio."
+            "text": "¡Felicidades por el nacimiento! Subí los siguientes documentos para acceder al premio."
           }
         },
         {
@@ -273,18 +273,18 @@
           "key": "listPremionacimientopadre",
           "widgetData": {
             "items": [
-              "Antigüedad mínima de 18 meses como socio/a",
+              "Antigüedad mínima de 18 meses como socio",
               "Solicitud de solidaridad firmada sin enmiendas"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "certificadonacimiento",
+          "key": "premionacimientopadreCertificadonacimiento",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado de Nacimiento o Libreta de Familia",
-            "description": "Emitido por Dirección General de Registro del Estado Civil",
+            "description": "Emitido por Dirección General del Registro Civil",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/born.png",
             "multiple": true,
             "camera": "both",
@@ -356,28 +356,28 @@
       "widgets": [
         {
           "type": "heading",
-          "key": "titlePremioadopcionplena",
+          "key": "titlePremioadopcion",
           "widgetData": {
             "text": "Premio por Adopción Plena de Hijo"
           }
         },
         {
           "type": "subheading",
-          "key": "subtitlePremioadopcionplena",
+          "key": "subtitlePremioadopcion",
           "widgetData": {
-            "text": "¡Felicidades por la adopción de tu hijo/a! Subí los siguientes documentos para acceder al premio."
+            "text": "¡Felicidades por la adopción! Subí los siguientes documentos para acceder al premio."
           }
         },
         {
           "type": "subheading",
-          "key": "subtitle2Premioadopcionplena",
+          "key": "subtitle2Premioadopcion",
           "widgetData": {
             "text": "Para acceder al subsidio debes:"
           }
         },
         {
           "type": "list",
-          "key": "listPremioadopcionplena",
+          "key": "listPremioadopcion",
           "widgetData": {
             "items": [
               "Antigüedad mínima de 18 meses como socio/a",
@@ -387,11 +387,11 @@
         },
         {
           "type": "photo",
-          "key": "sentenciaadopcion",
+          "key": "premioadopcionSentenciaadopcion",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Sentencia Judicial de Adopción Plena",
-            "description": "Sentencia emitida por autoridad judicial competente",
+            "description": "Sentencia judicial que constate la adopción",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/born.png",
             "multiple": true,
             "camera": "both",
@@ -455,7 +455,7 @@
         {
           "inputKey": "subsidyType",
           "operator": "==",
-          "comparisonValue": "premio-adopcion-plena"
+          "comparisonValue": "premio-adopcion"
         }
       ]
     },
@@ -494,11 +494,11 @@
         },
         {
           "type": "photo",
-          "key": "certificadomatrimonio",
+          "key": "premiomatrimonioCertificadomatrimonio",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado de Matrimonio o Libreta de Familia",
-            "description": "Emitido por Dirección General del Registro del Estado Civil",
+            "description": "Emitido por Dirección General del Registro Civil",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/wedding.png",
             "multiple": true,
             "camera": "both",
@@ -572,14 +572,14 @@
           "type": "heading",
           "key": "titlePremiotitulouniversitario",
           "widgetData": {
-            "text": "Premio por Título Universitario Obtenido"
+            "text": "Premio por Título Universitario"
           }
         },
         {
           "type": "subheading",
           "key": "subtitlePremiotitulouniversitario",
           "widgetData": {
-            "text": "¡Felicidades por obtener tu título universitario! Subí los siguientes documentos para acceder al premio."
+            "text": "¡Felicidades por tu título! Subí los siguientes documentos para acceder al premio."
           }
         },
         {
@@ -595,18 +595,18 @@
           "widgetData": {
             "items": [
               "Antigüedad mínima de 18 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
-              "Plazo máximo de 180 días posteriores a la visación del título"
+              "Título con carga horaria mínima de 2.700 horas",
+              "Presentar dentro de 180 días posteriores a la visación"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "titulouniversitario",
+          "key": "premiotitulouniversitarioTitulouniversitario",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Título Universitario Visado",
-            "description": "Título visado por Ministerio de Educación y reconocido por ANEAES",
+            "description": "Visado por Ministerio de Educación y reconocido por ANEAES",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png",
             "multiple": true,
             "camera": "both",
@@ -680,14 +680,14 @@
           "type": "heading",
           "key": "titlePremioposgrado",
           "widgetData": {
-            "text": "Premio por Título de Posgrado Obtenido"
+            "text": "Premio por Título de Posgrado"
           }
         },
         {
           "type": "subheading",
           "key": "subtitlePremioposgrado",
           "widgetData": {
-            "text": "¡Felicidades por obtener tu título de posgrado! Subí los siguientes documentos para acceder al premio."
+            "text": "¡Felicidades por tu posgrado! Subí los siguientes documentos para acceder al premio."
           }
         },
         {
@@ -703,19 +703,19 @@
           "widgetData": {
             "items": [
               "Antigüedad mínima de 18 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
-              "Plazo máximo de 180 días posteriores a la visación del título",
-              "Solo aplica a especializaciones, maestrías y doctorados"
+              "Título de especialización, maestría o doctorado",
+              "Carga horaria mínima de 360 horas reloj",
+              "Presentar dentro de 180 días posteriores a la visación"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "tituloposgrado",
+          "key": "premioposgradoTituloposgrado",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Título de Posgrado Visado",
-            "description": "Título visado por Ministerio de Educación y reconocido por ANEAES",
+            "description": "Visado por Ministerio de Educación y ANEAES",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png",
             "multiple": true,
             "camera": "both",
@@ -732,11 +732,11 @@
         },
         {
           "type": "photo",
-          "key": "certificadocursoposgrado",
+          "key": "premioposgradoCertificadocurso",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado del Curso de Posgrado",
-            "description": "Certificado de finalización del programa de posgrado",
+            "description": "Certificado que acredite las horas completadas",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/college-degree.png",
             "multiple": true,
             "camera": "both",
@@ -808,176 +808,43 @@
       "widgets": [
         {
           "type": "heading",
-          "key": "titleSubsidioreposo",
-          "widgetData": {
-            "text": "Subsidio por Reposo Médico"
-          }
-        },
-        {
-          "type": "subheading",
-          "key": "subtitleSubsidioreposo",
-          "widgetData": {
-            "text": "Por tu reposo médico, podés acceder a este subsidio. Subí los siguientes documentos."
-          }
-        },
-        {
-          "type": "subheading",
-          "key": "subtitle2Subsidioreposo",
-          "widgetData": {
-            "text": "Para acceder al subsidio debes:"
-          }
-        },
-        {
-          "type": "list",
-          "key": "listSubsidioreposo",
-          "widgetData": {
-            "items": [
-              "Antigüedad mínima de 24 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
-              "Límite de hasta 2 subsidios por año",
-              "Plazo máximo de 60 días desde el inicio del reposo",
-              "No cubre cirugías estéticas ni tratamientos de infertilidad"
-            ]
-          }
-        },
-        {
-          "type": "photo",
-          "key": "certificadoreposo",
-          "widgetData": {
-            "label": "Subí un archivo",
-            "text": "Certificado de Reposo Médico",
-            "description": "Con membrete del sanatorio/hospital, diagnóstico y firma del médico",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
-            "multiple": true,
-            "camera": "both",
-            "allowFromMedia": true,
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir certificado de reposo médico."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "estudiosclinicosreposo",
-          "widgetData": {
-            "label": "Subí un archivo",
-            "text": "Estudios Clínicos (si aplica)",
-            "description": "Para reposos mayores a 3 días",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
-            "multiple": true,
-            "camera": "both",
-            "allowFromMedia": true,
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir estudios clínicos (si aplica)."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "memberDocumentFrontPhoto",
-          "widgetData": {
-            "label": "Tomá una foto",
-            "text": "Frente de tu cédula de identidad",
-            "description": "Asegúrate que los datos sean legibles",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-front.png",
-            "camera": "both",
-            "multiple": false,
-            "allowFromMedia": false,
-            "guidingShape": "",
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir una foto del frente de tu cédula."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "memberDocumentBackPhoto",
-          "widgetData": {
-            "label": "Tomá una foto",
-            "text": "Dorso de tu cédula de identidad",
-            "description": "Asegúrate que los datos sean legibles",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-back.png",
-            "camera": "both",
-            "multiple": false,
-            "allowFromMedia": false,
-            "guidingShape": "",
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir una foto del dorso de tu cédula."
-            }
-          ]
-        }
-      ],
-      "visibilityConditions": [
-        {
-          "inputKey": "subsidyType",
-          "operator": "==",
-          "comparisonValue": "subsidio-reposo"
-        }
-      ]
-    },
-    {
-      "widgets": [
-        {
-          "type": "heading",
-          "key": "titleSubsidiointernacion",
+          "key": "titleSubsidiointernacionsanatorial",
           "widgetData": {
             "text": "Subsidio por Internación Sanatorial"
           }
         },
         {
           "type": "subheading",
-          "key": "subtitleSubsidiointernacion",
+          "key": "subtitleSubsidiointernacionsanatorial",
           "widgetData": {
-            "text": "Por tu internación sanatorial, podés acceder a este subsidio. Subí los siguientes documentos."
+            "text": "Subí los siguientes documentos para acceder al subsidio de internación sanatorial."
           }
         },
         {
           "type": "subheading",
-          "key": "subtitle2Subsidiointernacion",
+          "key": "subtitle2Subsidiointernacionsanatorial",
           "widgetData": {
             "text": "Para acceder al subsidio debes:"
           }
         },
         {
           "type": "list",
-          "key": "listSubsidiointernacion",
+          "key": "listSubsidiointernacionsanatorial",
           "widgetData": {
             "items": [
               "Antigüedad mínima de 24 meses como socio/a",
               "Solicitud de solidaridad firmada sin enmiendas",
-              "Límite de hasta 2 internaciones por año",
-              "Plazo máximo de 60 días desde la internación",
-              "No cubre cirugías estéticas ni tratamientos de infertilidad"
+              "Presentar dentro de 60 días desde la internación"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "certificadointernacion",
+          "key": "subsidiointernacionsanatorialCertificadointernacion",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado de Internación Sanatorial",
-            "description": "Con membrete del sanatorio/hospital, fechas, diagnóstico y firma",
+            "description": "Con diagnóstico, fechas y firma del médico",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
             "multiple": true,
             "camera": "both",
@@ -994,11 +861,11 @@
         },
         {
           "type": "photo",
-          "key": "estudiosclinicosinternacion",
+          "key": "subsidiointernacionsanatorialEstudiosclinicosmayores3dias",
           "widgetData": {
             "label": "Subí un archivo",
-            "text": "Estudios Clínicos (si aplica)",
-            "description": "Para internaciones mayores a 3 días",
+            "text": "Estudios Clínicos y de Laboratorio",
+            "description": "Requeridos si internación supera 3 días",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
             "multiple": true,
             "camera": "both",
@@ -1009,7 +876,7 @@
           "validations": [
             {
               "type": "required",
-              "errorMessage": "Debes subir estudios clínicos (si aplica)."
+              "errorMessage": "Debes subir estudios clínicos y de laboratorio."
             }
           ]
         },
@@ -1062,7 +929,7 @@
         {
           "inputKey": "subsidyType",
           "operator": "==",
-          "comparisonValue": "subsidio-internacion"
+          "comparisonValue": "subsidio-internacion-sanatorial"
         }
       ]
     },
@@ -1070,45 +937,173 @@
       "widgets": [
         {
           "type": "heading",
-          "key": "titleSubsidioincapacidadtemporal",
+          "key": "titleSubsidioreposomedico",
           "widgetData": {
-            "text": "Subsidio por Incapacidad Física Temporal"
+            "text": "Subsidio por Reposo Médico"
           }
         },
         {
           "type": "subheading",
-          "key": "subtitleSubsidioincapacidadtemporal",
+          "key": "subtitleSubsidioreposomedico",
           "widgetData": {
-            "text": "Por tu incapacidad física temporal, podés acceder a este subsidio. Subí los siguientes documentos."
+            "text": "Subí los siguientes documentos para acceder al subsidio de reposo médico."
           }
         },
         {
           "type": "subheading",
-          "key": "subtitle2Subsidioincapacidadtemporal",
+          "key": "subtitle2Subsidioreposomedico",
           "widgetData": {
             "text": "Para acceder al subsidio debes:"
           }
         },
         {
           "type": "list",
-          "key": "listSubsidioincapacidadtemporal",
+          "key": "listSubsidioreposomedico",
           "widgetData": {
             "items": [
               "Antigüedad mínima de 24 meses como socio/a",
               "Solicitud de solidaridad firmada sin enmiendas",
-              "Incapacidad a partir de 31 días de reposo",
-              "Límite de hasta 2 pagos por año",
-              "Plazo máximo de 60 días desde el diagnóstico"
+              "Presentar dentro de 60 días desde el reposo"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "certificadoincapacidadtemporal",
+          "key": "subsidioreposomedicoCertificadoreposo",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Certificado de Reposo Médico",
+            "description": "Con diagnóstico, fechas y firma del médico",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir certificado de reposo médico."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "subsidioreposomedicoEstudiosclinicosmayores3dias",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Estudios Clínicos y de Laboratorio",
+            "description": "Requeridos si reposo supera 3 días",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir estudios clínicos y de laboratorio."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentFrontPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Frente de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-front.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del frente de tu cédula."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentBackPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Dorso de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-back.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del dorso de tu cédula."
+            }
+          ]
+        }
+      ],
+      "visibilityConditions": [
+        {
+          "inputKey": "subsidyType",
+          "operator": "==",
+          "comparisonValue": "subsidio-reposo-medico"
+        }
+      ]
+    },
+    {
+      "widgets": [
+        {
+          "type": "heading",
+          "key": "titleSubsidioincapacidadfisicatemporaria",
+          "widgetData": {
+            "text": "Subsidio por Incapacidad Física Temporal"
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitleSubsidioincapacidadfisicatemporaria",
+          "widgetData": {
+            "text": "Subí los siguientes documentos para acceder al subsidio de incapacidad."
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitle2Subsidioincapacidadfisicatemporaria",
+          "widgetData": {
+            "text": "Para acceder al subsidio debes:"
+          }
+        },
+        {
+          "type": "list",
+          "key": "listSubsidioincapacidadfisicatemporaria",
+          "widgetData": {
+            "items": [
+              "Antigüedad mínima de 24 meses como socio/a",
+              "Incapacidad desde 31 días de reposo",
+              "Solicitud de solidaridad firmada sin enmiendas",
+              "Presentar dentro de 60 días desde el diagnóstico"
+            ]
+          }
+        },
+        {
+          "type": "photo",
+          "key": "subsidioincapacidadfisicatemporariaCertificadoincapacidad",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado de Incapacidad Física Temporal",
-            "description": "Expedido por médico tratante con estudios que respalden la afección",
+            "description": "Expedido por médico tratante",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
             "multiple": true,
             "camera": "both",
@@ -1125,11 +1120,11 @@
         },
         {
           "type": "photo",
-          "key": "estudiosclinicosincapacidad",
+          "key": "subsidioincapacidadfisicatemporariaEstudiosrespaldar",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Estudios Clínicos, Laboratoriales e Imágenes",
-            "description": "Para avalar la afección y el diagnóstico",
+            "description": "Que respalden la afección diagnosticada",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/medical.png",
             "multiple": true,
             "camera": "both",
@@ -1193,7 +1188,7 @@
         {
           "inputKey": "subsidyType",
           "operator": "==",
-          "comparisonValue": "subsidio-incapacidad-temporal"
+          "comparisonValue": "subsidio-incapacidad-fisica-temporaria"
         }
       ]
     },
@@ -1201,40 +1196,40 @@
       "widgets": [
         {
           "type": "heading",
-          "key": "titleSubsidioincapacidadpermanente",
+          "key": "titleSubsidioincapacidadfisicapermanente",
           "widgetData": {
             "text": "Subsidio por Incapacidad Física Permanente"
           }
         },
         {
           "type": "subheading",
-          "key": "subtitleSubsidioincapacidadpermanente",
+          "key": "subtitleSubsidioincapacidadfisicapermanente",
           "widgetData": {
-            "text": "Por tu incapacidad física permanente, podés acceder a este subsidio único. Subí los siguientes documentos."
+            "text": "Subí los siguientes documentos para acceder al subsidio de incapacidad permanente."
           }
         },
         {
           "type": "subheading",
-          "key": "subtitle2Subsidioincapacidadpermanente",
+          "key": "subtitle2Subsidioincapacidadfisicapermanente",
           "widgetData": {
             "text": "Para acceder al subsidio debes:"
           }
         },
         {
           "type": "list",
-          "key": "listSubsidioincapacidadpermanente",
+          "key": "listSubsidioincapacidadfisicapermanente",
           "widgetData": {
             "items": [
               "Antigüedad mínima de 60 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
               "Pago único por única vez",
-              "Plazo máximo de 60 días desde la determinación de la incapacidad"
+              "Solicitud de solidaridad firmada sin enmiendas",
+              "Presentar dentro de 60 días desde determinación"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "certificadoincapacidadpermanente",
+          "key": "subsidioincapacidadfisicapermanenteCertificadoincapacidadpermanente",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado Médico de Incapacidad Permanente",
@@ -1302,7 +1297,7 @@
         {
           "inputKey": "subsidyType",
           "operator": "==",
-          "comparisonValue": "subsidio-incapacidad-permanente"
+          "comparisonValue": "subsidio-incapacidad-fisica-permanente"
         }
       ]
     },
@@ -1319,7 +1314,7 @@
           "type": "subheading",
           "key": "subtitleSubsidiosiniestros",
           "widgetData": {
-            "text": "Por la pérdida de vivienda o pertenencias en desastres, podés acceder a este subsidio. Subí los siguientes documentos."
+            "text": "Subí los siguientes documentos para acceder al subsidio por siniestro."
           }
         },
         {
@@ -1335,19 +1330,19 @@
           "widgetData": {
             "items": [
               "Antigüedad mínima de 36 meses como socio/a",
+              "Pérdida de vivienda o pertenencias por desastres",
               "Solicitud de solidaridad firmada sin enmiendas",
-              "Plazo máximo de 60 días desde el siniestro",
-              "Para pérdida de vivienda o pertenencias por desastres naturales o accidentes graves"
+              "Presentar dentro de 60 días desde el siniestro"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "informesiniestro",
+          "key": "subsidiosiniestrosInformesiniestro",
           "widgetData": {
             "label": "Subí un archivo",
-            "text": "Informe de Daños del Siniestro",
-            "description": "Emitido por empleado autorizado de la Cooperativa con pruebas del daño",
+            "text": "Informe del Empleado Autorizado",
+            "description": "Con pruebas fotográficas del daño causado",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/document.png",
             "multiple": true,
             "camera": "both",
@@ -1358,7 +1353,7 @@
           "validations": [
             {
               "type": "required",
-              "errorMessage": "Debes subir informe de daños del siniestro."
+              "errorMessage": "Debes subir informe del empleado autorizado."
             }
           ]
         },
@@ -1428,7 +1423,7 @@
           "type": "subheading",
           "key": "subtitleSubsidiofallecimientosocio",
           "widgetData": {
-            "text": "Ante el fallecimiento del socio, la Cooperativa cubre los servicios de sepelio. Subí los siguientes documentos."
+            "text": "Nuestras condolencias. Subí los siguientes documentos para acceder al subsidio."
           }
         },
         {
@@ -1444,14 +1439,13 @@
           "widgetData": {
             "items": [
               "Antigüedad mínima de 60 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
-              "Plazo máximo de 60 días desde el fallecimiento"
+              "Solicitud de solidaridad firmada sin enmiendas"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "actadefuncion",
+          "key": "subsidiofallecimientosocioActadefuncion",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Acta de Defunción Original",
@@ -1472,11 +1466,11 @@
         },
         {
           "type": "photo",
-          "key": "partemedico",
+          "key": "subsidiofallecimientosocioPartemedico",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Parte Médico",
-            "description": "Expedido por el MSP y BS con causa del deceso",
+            "description": "Expedido por MSP y BS con causa del deceso",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
             "multiple": true,
             "camera": "both",
@@ -1548,39 +1542,38 @@
       "widgets": [
         {
           "type": "heading",
-          "key": "titleSubsidiofallecimientoconyuge",
+          "key": "titleSubsidiofallecimientopadremadre",
           "widgetData": {
-            "text": "Subsidio por Fallecimiento de Cónyuge"
+            "text": "Subsidio por Fallecimiento de Padre/Madre"
           }
         },
         {
           "type": "subheading",
-          "key": "subtitleSubsidiofallecimientoconyuge",
+          "key": "subtitleSubsidiofallecimientopadremadre",
           "widgetData": {
-            "text": "Ante el fallecimiento de tu cónyuge, podés acceder a este subsidio. Subí los siguientes documentos."
+            "text": "Nuestras condolencias. Subí los siguientes documentos para acceder al subsidio."
           }
         },
         {
           "type": "subheading",
-          "key": "subtitle2Subsidiofallecimientoconyuge",
+          "key": "subtitle2Subsidiofallecimientopadremadre",
           "widgetData": {
             "text": "Para acceder al subsidio debes:"
           }
         },
         {
           "type": "list",
-          "key": "listSubsidiofallecimientoconyuge",
+          "key": "listSubsidiofallecimientopadremadre",
           "widgetData": {
             "items": [
               "Antigüedad mínima de 60 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
-              "Plazo máximo de 60 días desde el fallecimiento"
+              "Solicitud de solidaridad firmada sin enmiendas"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "actadefuncion",
+          "key": "subsidiofallecimientopadremadreActadefuncion",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Acta de Defunción Original",
@@ -1601,11 +1594,11 @@
         },
         {
           "type": "photo",
-          "key": "partemedico",
+          "key": "subsidiofallecimientopadremadrePartemedico",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Parte Médico",
-            "description": "Expedido por el MSP y BS con causa del deceso",
+            "description": "Expedido por MSP y BS con causa del deceso",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
             "multiple": true,
             "camera": "both",
@@ -1622,11 +1615,160 @@
         },
         {
           "type": "photo",
-          "key": "certificadomatrimonio",
+          "key": "subsidiofallecimientopadremadreDocumentoparentesco",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Documento de Parentesco",
+            "description": "Certificado de nacimiento del solicitante",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir documento de parentesco."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentFrontPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Frente de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-front.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del frente de tu cédula."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "memberDocumentBackPhoto",
+          "widgetData": {
+            "label": "Tomá una foto",
+            "text": "Dorso de tu cédula de identidad",
+            "description": "Asegúrate que los datos sean legibles",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-back.png",
+            "camera": "both",
+            "multiple": false,
+            "allowFromMedia": false,
+            "guidingShape": "",
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir una foto del dorso de tu cédula."
+            }
+          ]
+        }
+      ],
+      "visibilityConditions": [
+        {
+          "inputKey": "subsidyType",
+          "operator": "==",
+          "comparisonValue": "subsidio-fallecimiento-padre-madre"
+        }
+      ]
+    },
+    {
+      "widgets": [
+        {
+          "type": "heading",
+          "key": "titleSubsidiofallecimientoconyuge",
+          "widgetData": {
+            "text": "Subsidio por Fallecimiento de Cónyuge"
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitleSubsidiofallecimientoconyuge",
+          "widgetData": {
+            "text": "Nuestras condolencias. Subí los siguientes documentos para acceder al subsidio."
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitle2Subsidiofallecimientoconyuge",
+          "widgetData": {
+            "text": "Para acceder al subsidio debes:"
+          }
+        },
+        {
+          "type": "list",
+          "key": "listSubsidiofallecimientoconyuge",
+          "widgetData": {
+            "items": [
+              "Antigüedad mínima de 60 meses como socio/a",
+              "Solicitud de solidaridad firmada sin enmiendas"
+            ]
+          }
+        },
+        {
+          "type": "photo",
+          "key": "subsidiofallecimientoconyugeActadefuncion",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Acta de Defunción Original",
+            "description": "Expedida por el Registro Civil",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir acta de defunción original."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "subsidiofallecimientoconyugePartemedico",
+          "widgetData": {
+            "label": "Subí un archivo",
+            "text": "Parte Médico",
+            "description": "Expedido por MSP y BS con causa del deceso",
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
+            "multiple": true,
+            "camera": "both",
+            "allowFromMedia": true,
+            "disclaimer": ""
+          },
+          "visibilityConditions": [],
+          "validations": [
+            {
+              "type": "required",
+              "errorMessage": "Debes subir parte médico."
+            }
+          ]
+        },
+        {
+          "type": "photo",
+          "key": "subsidiofallecimientoconyugeCertificadomatrimonio",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado de Matrimonio o Constancia de Pareja",
-            "description": "Para acreditar relación de cónyuge con el difunto",
+            "description": "Que acredite el vínculo matrimonial",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
             "multiple": true,
             "camera": "both",
@@ -1698,166 +1840,16 @@
       "widgets": [
         {
           "type": "heading",
-          "key": "titleSubsidiofallecimientopadre",
-          "widgetData": {
-            "text": "Subsidio por Fallecimiento de Padre/Madre"
-          }
-        },
-        {
-          "type": "subheading",
-          "key": "subtitleSubsidiofallecimientopadre",
-          "widgetData": {
-            "text": "Ante el fallecimiento de tu padre/madre, podés acceder a este subsidio. Subí los siguientes documentos."
-          }
-        },
-        {
-          "type": "subheading",
-          "key": "subtitle2Subsidiofallecimientopadre",
-          "widgetData": {
-            "text": "Para acceder al subsidio debes:"
-          }
-        },
-        {
-          "type": "list",
-          "key": "listSubsidiofallecimientopadre",
-          "widgetData": {
-            "items": [
-              "Antigüedad mínima de 60 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
-              "Plazo máximo de 60 días desde el fallecimiento"
-            ]
-          }
-        },
-        {
-          "type": "photo",
-          "key": "actadefuncion",
-          "widgetData": {
-            "label": "Subí un archivo",
-            "text": "Acta de Defunción Original",
-            "description": "Expedida por el Registro Civil",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
-            "multiple": true,
-            "camera": "both",
-            "allowFromMedia": true,
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir acta de defunción original."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "partemedico",
-          "widgetData": {
-            "label": "Subí un archivo",
-            "text": "Parte Médico",
-            "description": "Expedido por el MSP y BS con causa del deceso",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
-            "multiple": true,
-            "camera": "both",
-            "allowFromMedia": true,
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir parte médico."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "certificadonacimiento",
-          "widgetData": {
-            "label": "Subí un archivo",
-            "text": "Certificado de Nacimiento o Libreta de Familia",
-            "description": "Para acreditar relación de hijo con el difunto",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
-            "multiple": true,
-            "camera": "both",
-            "allowFromMedia": true,
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir certificado de nacimiento o libreta de familia."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "memberDocumentFrontPhoto",
-          "widgetData": {
-            "label": "Tomá una foto",
-            "text": "Frente de tu cédula de identidad",
-            "description": "Asegúrate que los datos sean legibles",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-front.png",
-            "camera": "both",
-            "multiple": false,
-            "allowFromMedia": false,
-            "guidingShape": "",
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir una foto del frente de tu cédula."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "memberDocumentBackPhoto",
-          "widgetData": {
-            "label": "Tomá una foto",
-            "text": "Dorso de tu cédula de identidad",
-            "description": "Asegúrate que los datos sean legibles",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ci-back.png",
-            "camera": "both",
-            "multiple": false,
-            "allowFromMedia": false,
-            "guidingShape": "",
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir una foto del dorso de tu cédula."
-            }
-          ]
-        }
-      ],
-      "visibilityConditions": [
-        {
-          "inputKey": "subsidyType",
-          "operator": "==",
-          "comparisonValue": "subsidio-fallecimiento-padre"
-        }
-      ]
-    },
-    {
-      "widgets": [
-        {
-          "type": "heading",
           "key": "titleSubsidiofallecimientohijo",
           "widgetData": {
-            "text": "Subsidio por Fallecimiento de Hijo/Hija"
+            "text": "Subsidio por Fallecimiento de Hijo"
           }
         },
         {
           "type": "subheading",
           "key": "subtitleSubsidiofallecimientohijo",
           "widgetData": {
-            "text": "Ante el fallecimiento de tu hijo/a, podés acceder a este subsidio. Subí los siguientes documentos."
+            "text": "Nuestras condolencias. Subí los siguientes documentos para acceder al subsidio."
           }
         },
         {
@@ -1873,15 +1865,14 @@
           "widgetData": {
             "items": [
               "Antigüedad mínima de 60 meses como socio/a",
-              "Solicitud de solidaridad firmada sin enmiendas",
-              "Plazo máximo de 60 días desde el fallecimiento",
-              "Aplica para hijo menor de edad o con capacidades diferentes"
+              "Hijo menor de edad o con capacidades diferentes",
+              "Solicitud de solidaridad firmada sin enmiendas"
             ]
           }
         },
         {
           "type": "photo",
-          "key": "actadefuncion",
+          "key": "subsidiofallecimientohijoActadefuncion",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Acta de Defunción Original",
@@ -1902,11 +1893,11 @@
         },
         {
           "type": "photo",
-          "key": "partemedico",
+          "key": "subsidiofallecimientohijoPartemedico",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Parte Médico",
-            "description": "Expedido por el MSP y BS con causa del deceso",
+            "description": "Expedido por MSP y BS con causa del deceso",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
             "multiple": true,
             "camera": "both",
@@ -1923,11 +1914,11 @@
         },
         {
           "type": "photo",
-          "key": "certificadonacimiento",
+          "key": "subsidiofallecimientohijoCertificadonacimiento",
           "widgetData": {
             "label": "Subí un archivo",
             "text": "Certificado de Nacimiento o Libreta de Familia",
-            "description": "Para acreditar relación de padre/madre con el difunto",
+            "description": "Que acredite la filiación del hijo",
             "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
             "multiple": true,
             "camera": "both",
@@ -1939,27 +1930,6 @@
             {
               "type": "required",
               "errorMessage": "Debes subir certificado de nacimiento o libreta de familia."
-            }
-          ]
-        },
-        {
-          "type": "photo",
-          "key": "certificadocapacidaddiferente",
-          "widgetData": {
-            "label": "Subí un archivo",
-            "text": "Certificado de Capacidad Diferente",
-            "description": "Si aplica, emitido por la Senadis Py",
-            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/death.png",
-            "multiple": true,
-            "camera": "both",
-            "allowFromMedia": true,
-            "disclaimer": ""
-          },
-          "visibilityConditions": [],
-          "validations": [
-            {
-              "type": "required",
-              "errorMessage": "Debes subir certificado de capacidad diferente."
             }
           ]
         },
