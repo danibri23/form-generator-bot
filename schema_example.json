@@ -19,7 +19,7 @@
           "type": "heading",
           "key": "titlePage",
           "widgetData": {
-            "text": "Servicios de Solidaridad"
+            "text": "Formulario de solicitud de subsidios"
           }
         },
         {
@@ -384,6 +384,31 @@
           "inputKey": "subsidyType",
           "operator": "==",
           "comparisonValue": "matrimonio"
+        }
+      ]
+    },
+    {
+      "widgets": [
+        {
+          "type": "heading",
+          "key": "titlePage",
+          "widgetData": {
+            "text": "¡Terminamos!"
+          }
+        },
+        {
+          "type": "image",
+          "key": "successImage",
+          "widgetData": {
+            "src": "https://brosco-assets.s3.us-east-2.amazonaws.com/mobile/ok.png"
+          }
+        },
+        {
+          "type": "subheading",
+          "key": "subtitlePage",
+          "widgetData": {
+            "text": "Hemos recibido tu solicitud de subsidio. La revisaremos y te notificaremos vía correo electrónico sobre la resolución muy pronto."
+          }
         }
       ]
     }

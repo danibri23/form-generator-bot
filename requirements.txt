@@ -1,5 +1,6 @@
 slack-bolt
 slack-sdk
 anthropic
-pdfplumber
+markitdown[all]
 python-dotenv
+requests
